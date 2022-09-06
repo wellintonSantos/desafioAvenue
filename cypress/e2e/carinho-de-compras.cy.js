@@ -177,10 +177,5 @@ describe('Carrinho de compras', () => {
 
     // Valida se o subTotal é igual ao valor do primeiro item
     expect(subTotalDaPagina).to.eq(parseFloat(subTotal))
-    // cy.log(`Primeiro item: ${valorDoItem1}`)
-    // cy.log(`Segundo item: ${valorDoItem2}`)
-    // cy.log(`Terceiro item: ${valorDoItem3}`)
-    // cy.log(`subTotalDaPagina: ${subTotalDaPagina}`)
-    // cy.log(`subTotal: ${subTotal}`)
   })
 })
