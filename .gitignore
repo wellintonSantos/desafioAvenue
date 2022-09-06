@@ -1,0 +1,5 @@
+# Ignore screenshots
+*.png*
+
+# Ignore videos
+*.mp4*
