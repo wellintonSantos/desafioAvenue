@@ -17,5 +17,10 @@ Estão descritos em: **cypress/api/**
 
 -Suite 1 - API (Cenário 1) em: **/api-open-weather-map.cy.js**
 
+## Tá, mas como rodar?
+``
+npx cypress run --env grepTags=suite1
+``
+
 ## Autor
 - [Wellinton Pedroso Dos Santos](wellinton.pedroso.santos@gmail.com)

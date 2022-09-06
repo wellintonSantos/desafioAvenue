@@ -1,4 +1,4 @@
-it.only('completes an item using API', () => {
+it.only('completes an item using API', { tags: ['suite3', 'cenario1'] }, () => {
     cy.request({
         method: "GET",
         url: "/",

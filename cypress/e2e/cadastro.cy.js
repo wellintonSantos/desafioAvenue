@@ -1,5 +1,7 @@
 describe('Cadastro de usuário', () => {
-  it('Preenche os dados para o cadastro com sucesso', () => {
+
+  // Suite 2 - Cadastro - Cenário1
+  it('Preenche os dados para o cadastro com sucesso', { tags: ['suite2', 'cadastro'] }, () => {
     // faz o require para usar o faker
     var faker = require('faker-br');
 

@@ -4,6 +4,8 @@ module.exports = defineConfig({
   projectId: 'osxhtw',
   e2e: {
     setupNodeEvents(on, config) {
+      require('cypress-grep/src/plugin')(config);
+      return config
     },
     baseUrl: 'https://www.amazon.com.br'
   },

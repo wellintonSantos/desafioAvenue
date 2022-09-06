@@ -1,6 +1,7 @@
 describe('Carrinho de compras', () => {
 
-  it('Pesquisa e adiciona a Alexa Echo show 15 ao carrinho', () => {
+// Suite 1 - Carrinho de compras - Cenário1
+  it('Pesquisa e adiciona a Alexa Echo show 15 ao carrinho', { tags: ['suite1', 'carrinho', 'cenario1'] }, () => {
 
     // Acessa a página inícial da Amazon
     cy.visit('/')
@@ -29,7 +30,8 @@ describe('Carrinho de compras', () => {
     cy.contains("Echo Show 15")
   })
 
-  it('Pesquisa, adiciona três ao carrinho e valida o valor total', () => {
+  // Suite 1 - Carrinho de compras - Cenário2
+  it('Pesquisa, adiciona três ao carrinho e valida o valor total', { tags: ['suite1', 'carrinho', 'cenario2'] }, () => {
     // Acessa a página inícial da Amazon
     cy.visit('/')
 
